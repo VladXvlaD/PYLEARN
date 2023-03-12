@@ -5,5 +5,5 @@ from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 
 browser = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
-link = "https://client:password123@test4.acha.n2.mavendev.com/"
+link = "https://client:password123@example.com/"
 browser.get(link)
